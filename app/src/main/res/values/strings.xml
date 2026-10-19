@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">UniFind</string>
+    <string name="splash_tagline">Your campus, simplified</string>
+
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Sign in to continue</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_email_invalid">Enter a valid email address</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+
+    <string name="landing_subtitle">What are you looking for?</string>
+    <string name="module_lost_found">Lost &amp; Found</string>
+    <string name="module_campus_map">Campus Map</string>
+    <string name="module_departments">Departments</string>
+    <string name="module_faculty">Faculty</string>
+    <string name="module_notices">Notices</string>
+    <string name="module_profile">Profile</string>
+    <string name="coming_soon">%1$s coming soon</string>
+</resources>

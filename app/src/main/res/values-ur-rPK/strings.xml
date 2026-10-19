@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">UniFind</string>
+    <string name="splash_tagline">آپ کا کیمپس، آسان</string>
+
+    <string name="login_title">خوش آمدید</string>
+    <string name="login_subtitle">جاری رکھنے کے لیے سائن اِن کریں</string>
+    <string name="hint_email">ای میل</string>
+    <string name="hint_password">پاس ورڈ</string>
+    <string name="btn_login">لاگ اِن</string>
+    <string name="forgot_password">پاس ورڈ بھول گئے؟</string>
+    <string name="no_account">اکاؤنٹ نہیں ہے؟</string>
+    <string name="register">رجسٹر کریں</string>
+    <string name="error_email_required">ای میل درکار ہے</string>
+    <string name="error_email_invalid">درست ای میل درج کریں</string>
+    <string name="error_password_short">پاس ورڈ کم از کم 6 حروف کا ہونا چاہیے</string>
+
+    <string name="landing_subtitle">آپ کیا تلاش کر رہے ہیں؟</string>
+    <string name="module_lost_found">گمشدہ و دریافت شدہ</string>
+    <string name="module_campus_map">کیمپس کا نقشہ</string>
+    <string name="module_departments">شعبہ جات</string>
+    <string name="module_faculty">فیکلٹی</string>
+    <string name="module_notices">نوٹسز</string>
+    <string name="module_profile">پروفائل</string>
+    <string name="coming_soon">%1$s جلد آ رہا ہے</string>
+</resources>
