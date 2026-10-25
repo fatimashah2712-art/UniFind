@@ -2,18 +2,48 @@
     <string name="app_name">UniFind</string>
     <string name="splash_tagline">آپ کا کیمپس، آسان</string>
 
+    <!-- Login -->
     <string name="login_title">خوش آمدید</string>
     <string name="login_subtitle">جاری رکھنے کے لیے سائن اِن کریں</string>
     <string name="hint_email">ای میل</string>
     <string name="hint_password">پاس ورڈ</string>
     <string name="btn_login">لاگ اِن</string>
+    <string name="login">لاگ اِن</string>
     <string name="forgot_password">پاس ورڈ بھول گئے؟</string>
     <string name="no_account">اکاؤنٹ نہیں ہے؟</string>
     <string name="register">رجسٹر کریں</string>
     <string name="error_email_required">ای میل درکار ہے</string>
     <string name="error_email_invalid">درست ای میل درج کریں</string>
     <string name="error_password_short">پاس ورڈ کم از کم 6 حروف کا ہونا چاہیے</string>
+    <string name="error_invalid_credentials">ای میل یا پاس ورڈ غلط ہے</string>
 
+    <!-- Register -->
+    <string name="register_title">اکاؤنٹ بنائیں</string>
+    <string name="register_subtitle">ایک منٹ میں UniFind کا حصہ بنیں</string>
+    <string name="hint_name">پورا نام</string>
+    <string name="hint_confirm_password">پاس ورڈ کی تصدیق</string>
+    <string name="btn_register">رجسٹر کریں</string>
+    <string name="have_account">پہلے سے اکاؤنٹ ہے؟</string>
+    <string name="error_name_required">نام درکار ہے</string>
+    <string name="error_password_mismatch">پاس ورڈ مماثل نہیں ہیں</string>
+    <string name="register_success">اکاؤنٹ بن گیا۔ براہ کرم لاگ اِن کریں۔</string>
+
+    <!-- Forgot password -->
+    <string name="forgot_title">پاس ورڈ بھول گئے؟</string>
+    <string name="forgot_subtitle">اپنی ای میل درج کریں، ہم ری سیٹ ہدایات بھیج دیں گے۔</string>
+    <string name="btn_send_link">ری سیٹ لنک بھیجیں</string>
+    <string name="back_to_login">لاگ اِن پر واپس جائیں</string>
+    <string name="error_email_not_found">اس ای میل سے کوئی اکاؤنٹ نہیں ملا</string>
+    <string name="reset_link_sent">ری سیٹ لنک بھیج دیا گیا (فرضی)</string>
+
+    <!-- Reset password -->
+    <string name="reset_title">پاس ورڈ ری سیٹ کریں</string>
+    <string name="reset_subtitle">اپنے اکاؤنٹ کے لیے نیا پاس ورڈ منتخب کریں</string>
+    <string name="hint_new_password">نیا پاس ورڈ</string>
+    <string name="btn_reset">پاس ورڈ ری سیٹ کریں</string>
+    <string name="reset_success">پاس ورڈ تبدیل ہو گیا۔ براہ کرم لاگ اِن کریں۔</string>
+
+    <!-- Landing -->
     <string name="landing_subtitle">آپ کیا تلاش کر رہے ہیں؟</string>
     <string name="module_lost_found">گمشدہ و دریافت شدہ</string>
     <string name="module_campus_map">کیمپس کا نقشہ</string>
@@ -22,4 +52,11 @@
     <string name="module_notices">نوٹسز</string>
     <string name="module_profile">پروفائل</string>
     <string name="coming_soon">%1$s جلد آ رہا ہے</string>
+
+    <!-- Profile -->
+    <string name="profile_title">میری پروفائل</string>
+    <string name="label_name">نام</string>
+    <string name="label_email">ای میل</string>
+    <string name="btn_logout">لاگ آؤٹ</string>
+    <string name="logged_out">آپ لاگ آؤٹ ہو گئے ہیں</string>
 </resources>

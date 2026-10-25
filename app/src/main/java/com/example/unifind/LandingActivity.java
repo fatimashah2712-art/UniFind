@@ -1,6 +1,6 @@
-
 package com.example.unifind;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -20,11 +20,14 @@ public class LandingActivity extends AppCompatActivity {
         setupCard(R.id.cardDepartments, getString(R.string.module_departments));
         setupCard(R.id.cardFaculty, getString(R.string.module_faculty));
         setupCard(R.id.cardNotices, getString(R.string.module_notices));
-        setupCard(R.id.cardProfile, getString(R.string.module_profile));
+
+        // Profile card opens the Profile screen (explicit Intent)
+        MaterialCardView cardProfile = findViewById(R.id.cardProfile);
+        cardProfile.setOnClickListener(v ->
+                startActivity(new Intent(this, ProfileActivity.class)));
     }
 
-    // Later, replace the Toast with an Intent, e.g.
-    // startActivity(new Intent(this, ProfileActivity.class));
+    // Other modules are placeholders for now
     private void setupCard(int cardId, String moduleName) {
         MaterialCardView card = findViewById(cardId);
         card.setOnClickListener(v ->

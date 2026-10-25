@@ -33,16 +33,22 @@ public class LoginActivity extends AppCompatActivity {
 
         btnLogin.setOnClickListener(v -> {
             if (validateInputs()) {
-                startActivity(new Intent(this, LandingActivity.class));
-                finish();
+                String email = etEmail.getText().toString().trim();
+                String password = etPassword.getText().toString();
+                if (UserStore.checkLogin(this, email, password)) {
+                    startActivity(new Intent(this, LandingActivity.class));
+                    finish();
+                } else {
+                    Toast.makeText(this, R.string.error_invalid_credentials,
+                            Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
-        // TODO: replace these Toasts with Intents once the screens exist
         tvForgot.setOnClickListener(v ->
-                Toast.makeText(this, R.string.forgot_password, Toast.LENGTH_SHORT).show());
+                startActivity(new Intent(this, ForgotPasswordActivity.class)));
         tvRegister.setOnClickListener(v ->
-                Toast.makeText(this, R.string.register, Toast.LENGTH_SHORT).show());
+                startActivity(new Intent(this, RegisterActivity.class)));
     }
 
     private boolean validateInputs() {
